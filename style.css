@@ -48,6 +48,7 @@
 .container-fluid{
     position: relative;
 }
+
 /* *****************CUSTOMIZE******************* */
 .navbar-brand{
     color: white;
@@ -63,4 +64,7 @@
 
 .carousel-item>img{
     max-height: 50vh;
+}
+.carousel-caption>h5{
+    text-shadow: 3px 3px 15px black;
 }
