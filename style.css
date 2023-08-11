@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+    font-family: 'Kanit', sans-serif;
+    transition:0.3s ease-in-out;
+}
+
+*:focus{
+    color: white;
+    text-shadow: 1px 1px 10px rgb(182, 238, 255);
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+/* .active{
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(182, 238, 255);
+} */
+
+.text-yellow:hover{
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+
+.text-yellow:focus{
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+
+.container-fluid{
+    position: relative;
+}
+/* *****************CUSTOMIZE******************* */
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
