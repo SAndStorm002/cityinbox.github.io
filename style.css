@@ -1,3 +1,5 @@
+/* ******************** CSS RESET ********************* */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,20 +15,18 @@
     text-shadow: 1px 1px 10px rgb(182, 238, 255);
 }
 
-.fit-content{
-    width: fit-content;
+/* *************** FIRST ITEM BUG FIX ******************* */
+
+.first-item{
+    position: relative;
+    top: 58px;
 }
+
+/* **************** GLOBAL CUSMIZATION ****************** */
 
 .text-yellow{
     color: yellow;
 }
-
-/* .active{
-    border-bottom: 1px solid white;
-    border-radius: 3px;
-    color: white;
-    text-shadow: 1px 1px 10px rgb(182, 238, 255);
-} */
 
 .text-yellow:hover{
     color: white;
@@ -36,6 +36,13 @@
 .text-yellow:focus{
     color: white;
     text-shadow: 1px 1px 10px white;
+}
+
+.active{
+    border-bottom: 0.5px solid white;
+    border-radius: 1px;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(182, 238, 255);
 }
 
 .container-fluid{
@@ -48,4 +55,12 @@
 
 .navbar-brand:hover{
     color: white;
+}
+
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+.carousel-item>img{
+    max-height: 50vh;
 }
