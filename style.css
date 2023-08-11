@@ -65,6 +65,6 @@
 .carousel-item>img{
     max-height: 50vh;
 }
-.carousel-caption>h5{
+.carousel-caption>h5,p{
     text-shadow: 3px 3px 15px black;
 }
